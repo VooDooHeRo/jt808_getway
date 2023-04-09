@@ -1,0 +1,15 @@
+{
+    "name": "jt808_getway",
+    "version": "1.0.0",
+    "description": "getway for our Geolocalisation app.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "bourouba ilyes",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.3.5"
+    }
+}
