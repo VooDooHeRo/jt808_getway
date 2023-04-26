@@ -35,13 +35,13 @@ server.on("connection", function (socket) {
 
         //fs.writeFile('log.txt', chunk.toJSON().toString(), { flag: 'a+' }, err => {console.log("err : ", err)});
 
-        let recievMsg =
-            "7E0102000D001234567891000438333030313233343536373839A97E";
-        let buffer = Buffer.from(recievMsg, "hex");
-        console.log("buffer : ", buffer);
+        // let recievMsg =
+        //     "7E0102000D001234567891000438333030313233343536373839A97E";
+        // let buffer = Buffer.from(recievMsg, "hex");
+        // console.log("buffer : ", buffer);
 
-        // let buffToStr = chunk.toString("hex");
-        let buffToStr = recievMsg;
+        // let buffToStr = recievMsg;
+        let buffToStr = chunk.toString("hex");
         console.log("buffToStr : ", buffToStr);
         getMsgID = buffToStr.substring(2, 6);
         console.log("getMsgID : ", getMsgID);
