@@ -148,7 +148,7 @@ server.on("connection", function (socket) {
                 //write data to request body
 
                 let options = {
-                    hostname: "geoloc.streamsystem.com",
+                    hostname: "geolocalisation.streamsystem.com",
 
                     path: "/track/device/",
                     method: "POST",
