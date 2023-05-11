@@ -142,7 +142,7 @@ server.on("connection", function (socket) {
                 // test only
                 if (
                     header_0200["phoneNum"] == "022032350592" ||
-                    header_0200["phoneNum"] == "22032350600"
+                    header_0200["phoneNum"] == "022032350600"
                 ) {
                     body_0200["lon"] = body_0200["lon"] * 100;
                 }
