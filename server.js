@@ -140,7 +140,10 @@ server.on("connection", function (socket) {
                 body_0200["id"] = header_0200["phoneNum"];
 
                 // test only
-                if (header_0200["phoneNum"] == "022032350592") {
+                if (
+                    header_0200["phoneNum"] == "022032350592" ||
+                    header_0200["phoneNum"] == "22032350600"
+                ) {
                     body_0200["lon"] = body_0200["lon"] * 100;
                 }
                 console.log("************************");
