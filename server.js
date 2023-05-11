@@ -140,9 +140,9 @@ server.on("connection", function (socket) {
                 body_0200["id"] = header_0200["phoneNum"];
 
                 // test only
-                // if (header_0200["phoneNum"] != "213771997743") {
-                // body_0200["lon"] = body_0200["lon"] * 100;
-                // }
+                if (header_0200["phoneNum"] == "22032350592") {
+                    body_0200["lon"] = body_0200["lon"] * 100;
+                }
                 console.log("************************");
 
                 //write data to request body
